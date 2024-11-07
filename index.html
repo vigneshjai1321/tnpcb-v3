@@ -330,10 +330,17 @@ Header START -->
 									</ul>
 								</li>
 
-								
 								<li class="nav-item dropdown">
-									<a class="nav-link active" href="#" >RealTime Monitoring</a>
+									<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false"> RealTimeMonitoring </a>
+									<ul class="dropdown-menu" aria-labelledby="postMenu">
+										<!-- dropdown submenu -->
+										<li><a class="dropdown-item" href="#">Air/Water Quality Watch</a></li>
+										<li><a class="dropdown-item" href="#">AQI of CAAQMS</a></li>
+										
+									</ul>
 								</li>
+								
 								
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown"
@@ -347,8 +354,16 @@ Header START -->
 								</li>
 								
 								<li class="nav-item dropdown">
-									<a class="nav-link active" href="#" >Employee Desk</a>
+									<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false"> Employee Desk </a>
+									<ul class="dropdown-menu" aria-labelledby="postMenu">
+										<!-- dropdown submenu -->
+										<li><a class="dropdown-item" href="#">E-Office</a></li>
+										<li><a class="dropdown-item" href="#">Employee Login</a></li>
+										
+									</ul>
 								</li>
+								
 
 								
 								<li class="nav-item dropdown">
@@ -482,7 +497,7 @@ Main hero END -->
 						<!-- <div class="card card-overlay-bottom bg-parallax h-400" data-jarallax-video="https://www.youtube.com/embed/bvP95l4rPKg?si=SCX2ZjC2QOsErykM" data-speed="1.2"> -->
 							<div class="video-background">
 								<video autoplay muted loop class="video-background-element">
-								  <source src="assets/video/smoke1.mp4" type="video/mp4">
+								  <source src="assets/videos/smoke1.mp4" type="video/mp4">
 								
 								  Your browser does not support the video tag.
 								</video>
@@ -503,57 +518,61 @@ Main hero END -->
 					<!-- Slider END -->
 					<div class="col-lg-3 mt-5 mt-lg-0 d-flex flex-column">
 						<!-- Card item START -->
-						<div class="card mb-4 border border-primary flex-fill"> <!-- Card with border and flex-fill to fill space -->
+						<div class="card mb-4 border border-primary flex-fill">
+							<!-- Title with background -->
 							<div class="rounded-3 overflow-hidden">
-								<p class="btn-link text-reset fw-bold p-3 bg-light">IMPORTANT LINKS</p> <!-- Title with background -->
-								<div class="p-3">
-									<ul class="list-unstyled">
-										<li class="mb-3">
-											<a href="https://www.example.com/air-pollution" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Air Pollution Awareness</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/water-pollution" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Water Pollution Impact</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/plastic-pollution" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Plastic Waste Management</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/sustainable-practices" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Sustainable Practices to Reduce Pollution</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/climate-change" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Climate Change and Pollution</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/clean-energy" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Clean Energy Solutions</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/eco-friendly-initiatives" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Eco-Friendly Initiatives</span>
-											</a>
-										</li>
-										<li class="mb-3">
-											<a href="https://www.example.com/recycling-awareness" class="text-reset d-flex align-items-center">
-												<i class="bi bi-arrow-right-circle me-2"></i> <span>Recycling and Waste Management</span>
-											</a>
-										</li>
-									</ul>
-								</div>
+								<p class="btn-link text-reset fw-bold p-3 bg-light">NEWS & EVENTS</p>
 							</div>
+							<!-- Marquee section START -->
+							<div class="p-3">
+								<marquee behavior="scroll" direction="up" scrollamount="3" height="300px" onmouseover="this.stop();" onmouseout="this.start();">
+									<div class="news-item d-flex mb-3">
+										<span class="date-badge bg-warning text-dark px-2 py-1 me-2 rounded">01-Nov-2024</span>
+										<a href="https://www.example.com/event-1" class="text-reset d-flex align-items-center">
+											<i class="bi bi-arrow-right-circle me-2"></i> New Air Quality Monitoring Program Launched
+										</a>
+									</div>
+									<div class="news-item d-flex mb-3">
+										<span class="date-badge bg-warning text-dark px-2 py-1 me-2 rounded">15-Oct-2024</span>
+										<a href="https://www.example.com/event-2" class="text-reset d-flex align-items-center">
+											<i class="bi bi-arrow-right-circle me-2"></i> TNPCB Water Conservation Seminar
+										</a>
+									</div>
+									<div class="news-item d-flex mb-3">
+										<span class="date-badge bg-warning text-dark px-2 py-1 me-2 rounded">05-Oct-2024</span>
+										<a href="https://www.example.com/event-3" class="text-reset d-flex align-items-center">
+											<i class="bi bi-arrow-right-circle me-2"></i> Plastic Waste Management Workshop
+										</a>
+									</div>
+									<div class="news-item d-flex mb-3">
+										<span class="date-badge bg-warning text-dark px-2 py-1 me-2 rounded">25-Sep-2024</span>
+										<a href="https://www.example.com/event-4" class="text-reset d-flex align-items-center">
+											<i class="bi bi-arrow-right-circle me-2"></i> Sustainable Practices Awareness Drive
+										</a>
+									</div>
+									<!-- Additional news items as needed -->
+								</marquee>
+							</div>
+							<!-- Marquee section END -->
 						</div>
 						<!-- Card item END -->
 					</div>
+					
+					<!-- Inline CSS for responsiveness -->
+					<style>
+						.date-badge {
+							font-size: 0.9rem;
+							background-color: #ffc107;
+						}
+					
+						/* Responsive adjustments */
+						@media (max-width: 768px) {
+							.date-badge {
+								font-size: 0.8rem;
+							}
+						}
+					</style>
+					
 					
 						<!-- Card item END -->
 					</div>
