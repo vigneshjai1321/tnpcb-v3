@@ -344,7 +344,7 @@ Header START -->
 								
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false"> Concern Fee details </a>
+										aria-haspopup="true" aria-expanded="false"> Concern Feedetails </a>
 									<ul class="dropdown-menu" aria-labelledby="postMenu">
 										<!-- dropdown submenu -->
 										<li><a class="dropdown-item" href="#">Concerned fee issued </a></li>
@@ -355,7 +355,7 @@ Header START -->
 								
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false"> Employee Desk </a>
+										aria-haspopup="true" aria-expanded="false"> EmployeeDesk </a>
 									<ul class="dropdown-menu" aria-labelledby="postMenu">
 										<!-- dropdown submenu -->
 										<li><a class="dropdown-item" href="#">E-Office</a></li>
@@ -588,6 +588,72 @@ Main hero END -->
 			</div>
 		</section>
 		<!-- =======================Main hero END -->
+		<div class="col-12 mt-5">
+			<!-- Related Links Section START -->
+			<div>
+				<h4 class="text-center mb-4">Related Links</h4>
+				<div class="d-flex justify-content-between">
+					<!-- Category item -->
+					<div class="flex-fill text-center p-4 border border-primary rounded mx-2">
+						<p class="fw-bold mb-1">Entrepreneurs</p>
+						<a href="#" class="link-hover-effect stretched-link btn-link fw-bold text-primary h5">OCMMS</a>
+					</div>
+					<!-- Category item -->
+					<div class="flex-fill text-center p-4 border border-primary rounded mx-2">
+						<p class="fw-bold mb-1">Public Grievances</p>
+						<a href="#" class="link-hover-effect stretched-link btn-link fw-bold text-primary h5">OLGPRS</a>
+					</div>
+					<!-- Category item -->
+					<div class="flex-fill text-center p-4 border border-primary rounded mx-2">
+						<p class="fw-bold mb-1">Healthcare</p>
+						<a href="#" class="link-hover-effect stretched-link btn-link fw-bold text-primary h5">OBMWMS</a>
+					</div>
+				</div>
+			</div>
+			<!-- Related Links Section END -->
+		</div>
+		
+		<!-- Inline CSS for responsive styling and hover effect -->
+		<style>
+			/* Full width on smaller screens */
+			.d-flex .flex-fill {
+				min-width: 0;
+			}
+		
+			/* Hover underline effect */
+			.link-hover-effect {
+				position: relative;
+				text-decoration: none;
+			}
+			.link-hover-effect::after {
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: -2px;
+				width: 100%;
+				height: 2px;
+				background-color: #007bff; /* Adjust to match your primary color */
+				transform: scaleX(0);
+				transition: transform 0.3s ease;
+			}
+			.link-hover-effect:hover::after {
+				transform: scaleX(1);
+			}
+		
+			/* Responsive font size adjustments */
+			@media (max-width: 768px) {
+				.flex-fill {
+					font-size: 1rem;
+					padding: 2rem 1rem;
+				}
+			}
+			@media (min-width: 768px) {
+				.flex-fill {
+					font-size: 1.1rem;
+				}
+			}
+		</style>
+		
 
 
 		<section class="pt-4 pb-0">
